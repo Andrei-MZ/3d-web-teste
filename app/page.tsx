@@ -127,7 +127,7 @@ function Navbar() {
         <h6 className='font-bold'>Insightful</h6>
         <ul className='flex gap-8'>
           <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#home">Home</Link></li>
-          <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#about">Sobret</Link></li>
+          <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#about">Sobre</Link></li>
           <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#pricing">Preços</Link></li>
         </ul>
       </div>
