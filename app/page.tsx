@@ -37,7 +37,7 @@ export default function Home() {
           <Image src="/whirl.svg" fill className="absolute object-cover w-full overflow-visible sm:rotate-90" alt="Background Whirl"/>
         </div>
         <div className="w-full h-full flex items-center justify-center flex-col gap-8 max-w-7xl">
-          <h3 className='text-4xl md:text-5xl font-bold'>No More Time Wasted!</h3>
+          <h3 className='text-4xl md:text-5xl font-bold'>Sem mais tempo desperdiçado!</h3>
           <div className="w-full grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-4 justify-between relative">
             {infoCards.map((infoCard) => {
               return (
@@ -51,7 +51,7 @@ export default function Home() {
       </section>
 
       <section id="pricing" className="h-fit min-h-screen w-full flex flex-col items-center justify-center gap-8 p-8">
-        <h4 className="text-4xl md:text-5xl font-bold">Pricing</h4>
+        <h4 className="text-4xl md:text-5xl font-bold">Preços</h4>
         <div className='grid grid-cols-1 grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 items-center h-fit w-full max-w-3xl gap-8'>
             {pricingCards.map((pricingCard) => {
               return (
