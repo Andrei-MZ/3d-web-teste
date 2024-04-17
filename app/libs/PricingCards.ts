@@ -9,27 +9,28 @@ interface IPricingCard {
 const pricingCards:IPricingCard[] = [
     {
         price: 49,
-        title: "Insightful Pro",
+        title: "Pro Insightful",
         benefits: [
-            "Predictive lead scoring",
-            "Automated content creation",
-            "Personalized messaging at scale",
-            "Customer retention tools",
+            "Pontuação preditiva de leads",
+            "Criação automatizada de conteúdo",
+            "Mensagens personalizadas em grande escala",
+            "Ferramentas de retenção de clientes",
         ],
         id: 1,
-        oneliner: "AI-powered sales tools for focused revenue growth"
+        oneliner: "Ferramentas de vendas baseadas em IA para crescimento de receita focado"
     },
     {
         price: 99,
-        title: "Insightful Enterprise",
+        title: "Empresa Insightful",
         benefits: [
-            "Everything In Pro Tier, and:",
-            "Data-driven recommendations",
-            "Customizable sales workflows",
-            "Real-time alerts and notifications",
+            
+            "Tudo no nível Pro e:",
+            "Recomendações baseadas em dados",
+            "Fluxos de trabalho de vendas personalizáveis",
+            "Alertas e notificações em tempo real",
         ],
         id: 2,
-        oneliner: "Comprehensive sales optimization for accelerated revenue gains"
+        oneliner: "Otimização abrangente de vendas para ganhos acelerados de receita"
     },
 ]
 
