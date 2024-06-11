@@ -1,9 +1,7 @@
 "use client"
 
-import Spline from '@splinetool/react-spline'
-import Link from 'next/link'
-import { CheckCheck, LucideIcon } from 'lucide-react'
-import { ReactElement } from 'react'
+import Spline from '@splinetool/react-spline';
+import Link from 'next/link';
 
 export default function Home() {
     return (
